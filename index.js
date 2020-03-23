@@ -142,7 +142,7 @@ function get3rdCar(inventory) {
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
 /**
- * ### Challenge `getCarInfoByIndex`
+ * ### Challenge `getCarInfoByIndex` 
  * 
  * @instructions
  * getCarInfoByIndex takes two arguments:
