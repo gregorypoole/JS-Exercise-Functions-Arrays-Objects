@@ -77,11 +77,14 @@ function temperatureCtoF(/* code here */ cel) {
  * 
  * Hint: You can call your `temperatureCtoF` function from inside `temperatureInF`.
 */
-function temperatureInF(/* code here */cel) {
-  let  y = (cel* 9/5) +32;
-  return Math.round(y)
+function temperatureInF(/* code here */temp, unit) {
+  if (unit === "C") {
+    return temperatureCtoF(temp) + "F";
+  } else {
+    return temp + unit;
+  }
 }
-console.log(temperatureInF(32));
+
 
 
 /**
